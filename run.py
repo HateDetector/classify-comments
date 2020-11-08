@@ -11,7 +11,7 @@ def main():
     load_dotenv()
     st_filepath = os.getenv('STATUSES_FILEPATH')
     cl_filepath = os.getenv('CLASSIFIED_FILEPATH')
-    datefile = "2020-11-01.csv"
+    datefile = "2020-11-03.csv"
 
     print("Started script at " + datetime.now().strftime("%H:%M:%S"))
     # access tweets (postgres/ csv), convert to dataframe
